@@ -1,36 +1,56 @@
-LineageOS
-===========
+<p><b>AlphaDroid</b></p>
 
-Getting started
----------------
+<p>AlphaDroid is a custom ROM for Android, based on crDroid, with a new look and some extra features and optimizations. Extra features are picked from other custom ROMs and adapted to our needs or implemented by us.</p>
 
-To get started with Android/LineageOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+<p>Credits:</p>
 
-To initialize your local repository using the LineageOS trees, use a command like this:
-```
-repo init -u https://github.com/LineageOS/android.git -b lineage-22.0 --git-lfs
-```
-Then to sync up:
-```
+<p>* Base:<br/>
+** <a href="https://github.com/crDroidAndroid">crDroid Android</a><br/>
+** <a href="https://github.com/LineageOS">LineageOS</a><br/>
+
+<p>* UI:<br/>
+** <a href="https://github.com/dotos">dotOS</a><br/>
+** <a href="https://github.com/xdroid-oss">xdroidOSS</a><br/>
+** <a href="https://github.com/nusantaraproject-rom">NusantaraProject</a></br>
+** <a href="https://github.com/bootleggersrom">Bootleggers</a></p>
+
+<p>* Extra features:<br/>
+** <a href="https://github.com/risingtechoss">RisingTechOSS</a><br/>
+** <a href="https://github.com/spark-rom">SparkOS</a><br/>
+** <a href="https://github.com/pixelexperience">PixelExperience</a><br/>
+** <a href="https://github.com/DerpFest-AOSP">DerpFest-AOSP</a><br/>
+** <a href="https://github.com/bananadroid">BananaDroid</a><br/>
+** <a href="https://github.com/theParasiteProject">TheParasiteProject</a><br/>
+
+<p>* Alpha logo and banners:<br/>
+** <a href="https://github.com/naokoshoto">naokoshoto</a></p>
+
+### Sync ###
+
+```bash
+
+# Initialize local repository
+repo init -u https://github.com/alphadroid-project/manifest -b alpha-15-wip --git-lfs
+
+# Sync
 repo sync
 ```
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
 
+### Build ###
 
-Submitting patches
-------------------
-Patches are always welcome! Please submit your patches via LineageOS Gerrit!
+```bash
 
-Simply follow our guide on [how to submit patches](https://wiki.lineageos.org/submitting-patch-howto.html).
+# Set up environment
+$ . build/envsetup.sh
 
-To view the status of your and others' patches, visit [LineageOS Gerrit Code Review](https://review.lineageos.org/).
+# Build the code
+$ lunch lineage_<device_codename>-<build_variant>
+$ make bacon
 
+# Or, instead of 'lunch + make', just
+$ brunch <device_codname>
+```
 
-Buildbot
---------
-
-All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [LineageOS Buildkite](https://buildkite.com/lineageos).
-
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
+<p>
+  If you need help to create a build environment, you can check crDroid instructions <a href="https://github.com/crdroidandroid/android">here</a>.
+</p>
