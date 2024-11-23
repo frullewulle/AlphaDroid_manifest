@@ -66,6 +66,7 @@
 
   <project path="lineage-sdk" name="lineage-sdk" remote="alpha" />
   <project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="alpha" />
+  <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="alpha-gitlab" />
   <!--<project path="packages/apps/AlphaWallpapers" name="packages_apps_AlphaWallpapers" groups="pdk-fs" remote="alpha" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="alpha" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="alpha" />-->
