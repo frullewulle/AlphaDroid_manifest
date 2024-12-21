@@ -25,6 +25,9 @@
           sync-j="4"
           revision="refs/heads/alpha-15" />
 
+  <remote name="alpha-codeberg"
+          fetch="https://codeberg.org/alphadroid-project/" />
+
   <remote  name="alpha-devices"
            fetch="https://github.com/alphadroid-devices"
            sync-c="true"
