@@ -85,7 +85,7 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="alpha" />
   <!--<project path="packages/modules/StatsD" name="packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" remote="alpha" />-->
 
-  <!--<project path="system/core" name="system_core" groups="pdk" remote="alpha" />-->
+  <project path="system/core" name="system_core" groups="pdk" remote="alpha" />
   <!--<project path="system/libfmq" name="system_libfmq" groups="pdk" remote="alpha" />-->
   <!--<project path="system/libhidl" name="system_libhidl" groups="pdk,sysui-studio" remote="alpha"/>-->
   <!--<project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="alpha" />-->
