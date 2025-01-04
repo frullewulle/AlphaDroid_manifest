@@ -44,7 +44,7 @@ repo sync
 $ . build/envsetup.sh
 
 # Build the code
-$ lunch lineage_<device_codename>-<build_variant>
+$ lunch alpha_<device_codename>-<build_variant>
 $ make bacon
 
 # Or, instead of 'lunch + make', just
