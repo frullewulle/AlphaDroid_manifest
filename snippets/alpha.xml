@@ -84,6 +84,7 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="alpha" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="alpha" />
   <!--<project path="packages/modules/StatsD" name="packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" remote="alpha" />-->
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="alpha" />
 
   <project path="system/core" name="system_core" groups="pdk" remote="alpha" />
   <!--<project path="system/libfmq" name="system_libfmq" groups="pdk" remote="alpha" />-->
