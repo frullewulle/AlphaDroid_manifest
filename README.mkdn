@@ -1,12 +1,12 @@
 <p><b>AlphaDroid</b></p>
 
-<p>AlphaDroid is a custom ROM for Android, based on crDroid, with a new look and some extra features and optimizations. Extra features are picked from other custom ROMs and adapted to our needs or implemented by us.</p>
+<p>AlphaDroid is a custom ROM for Android, based on LineageOS/crDroid, with a new look and some extra features and optimizations. Extra features are picked from other custom ROMs and adapted to our needs or implemented by us.</p>
 
 <p>Credits:</p>
 
 <p>* Base:<br/>
-** <a href="https://github.com/crDroidAndroid">crDroid Android</a><br/>
 ** <a href="https://github.com/LineageOS">LineageOS</a><br/>
+** <a href="https://github.com/crDroidAndroid">crDroid Android</a><br/>
 
 <p>* UI:<br/>
 ** <a href="https://github.com/dotos">dotOS</a><br/>
@@ -18,9 +18,9 @@
 ** <a href="https://github.com/risingtechoss">RisingTechOSS</a><br/>
 ** <a href="https://github.com/spark-rom">SparkOS</a><br/>
 ** <a href="https://github.com/pixelexperience">PixelExperience</a><br/>
-** <a href="https://github.com/DerpFest-AOSP">DerpFest-AOSP</a><br/>
 ** <a href="https://github.com/bananadroid">BananaDroid</a><br/>
 ** <a href="https://github.com/theParasiteProject">TheParasiteProject</a><br/>
+** <a href="https://github.com/VoltageOS">VoltageOS</a><br/>
 
 <p>* Alpha logo and banners:<br/>
 ** <a href="https://github.com/naokoshoto">naokoshoto</a></p>
@@ -48,7 +48,7 @@ $ lunch alpha_<device_codename>-<build_variant>
 $ make bacon
 
 # Or, instead of 'lunch + make', just
-$ brunch <device_codname>
+$ brunch alpha_<device_codename>-<build_variant>
 ```
 
 <p>
