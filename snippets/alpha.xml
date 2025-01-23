@@ -92,7 +92,7 @@
   <!--<project path="system/libhidl" name="system_libhidl" groups="pdk,sysui-studio" remote="alpha"/>-->
   <!--<project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="alpha" />-->
 
-  <!--<project path="vendor/addons" name="vendor_addons" remote="alpha" />-->
+  <project path="vendor/addons" name="vendor_addons" remote="alpha" />
   <project path="vendor/extra" name="vendor_extra" remote="alpha" />
   <project path="vendor/gms" name="vendor_google_gms" remote="alpha-gitlab" />
   <project path="vendor/alpha" name="vendor_alpha" remote="alpha" />
