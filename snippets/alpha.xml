@@ -71,7 +71,7 @@
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="alpha" />
   <!--<project path="frameworks/native" name="frameworks_native" groups="pdk" remote="alpha" />-->
 
-  <!--<project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="alpha" />-->
+  <project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="alpha" />
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="alpha" />
 
   <project path="lineage-sdk" name="lineage-sdk" remote="alpha" />
