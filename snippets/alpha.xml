@@ -99,6 +99,9 @@
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="alpha" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
 
+  <!-- Clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="prebuilts_clang_host_linux-x86_clang-r536225" clone-depth="1" remote="alpha-gitlab" />
+
   <project path="system/core" name="system_core" groups="pdk" remote="alpha" />
   <!--<project path="system/libfmq" name="system_libfmq" groups="pdk" remote="alpha" />-->
   <!--<project path="system/libhidl" name="system_libhidl" groups="pdk,sysui-studio" remote="alpha"/>-->
